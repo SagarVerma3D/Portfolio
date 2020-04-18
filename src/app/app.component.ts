@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Portfolio';
+  title = 'Sagar Verma Portfolio';
+  constructor() {
+    const node = document.createElement('script');
+    node.src = 'assets/js/site.js';
+    node.type = 'text/javascript';
+    node.async = false;
+    document.getElementsByTagName('head')[0].appendChild(node);
+  }
 }

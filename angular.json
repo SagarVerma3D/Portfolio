@@ -26,7 +26,11 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/modernizr.custom.js",
+              "src/assets/js/flickity.pkgd.min.js",
+              "src/assets/js/smoothscroll.js"
+            ]
           },
           "configurations": {
             "production": {
