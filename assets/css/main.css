@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 /* Fonts & icons */
 @font-face {
@@ -99,7 +99,7 @@ button:focus {
 }
 
 .codrops-header h1 {
-	font-size: 1em;
+	font-size: 2em;
 	margin: 0 auto 0 0;
 	padding: 0.5em;
 }
@@ -720,6 +720,15 @@ button:focus {
 	padding: 0.5em;
 }
 
+
+/*custom*/
+.contact{
+	padding:2em;
+}
+.mobile{
+	color: #585558;
+}
+
 /* Mobile-first media queries */
 @media screen and (min-width: 65em) {
 	.item__details {
@@ -764,6 +773,16 @@ button:focus {
 	.codrops-header h1 {
 		font-size: 0.85em;
 		padding: 0.25em;
+	}
+	.contact{
+		padding:0.1em;
+	}
+	.email{
+		font-size:0.85em;
+	}
+	.mobile{
+		color: #585558;
+		font-size:0.85em;
 	}
 }
 
